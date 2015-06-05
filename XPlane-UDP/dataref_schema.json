@@ -1,0 +1,30 @@
+{
+	"Data Index":[
+		"Description",[
+			"Item1",
+			"Item2",
+			"Item3",
+			"Item4",
+			"Item5",
+			"Item6",
+			"Item7",
+			"Item8"
+		]
+	]
+}
+
+//Example
+{
+	"96":[
+		"COM 1/2 frequency",[
+			"COM 1 freq",
+			"COM 1 stby",
+			"",
+			"COM 2 freq",
+			"COM 2 stby",
+			"",
+			"COM xmt",
+			""
+		]
+	]
+}
