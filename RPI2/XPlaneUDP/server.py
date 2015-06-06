@@ -61,9 +61,13 @@ class Server():
 
 		self.server = ThreadedUDPServer((host, port), XPlaneUDPHandler)
 
-		try:
-			server_thread = threading.Thread(target=server.serve_forever)
-			server_thread.daemon = False
-			server_thread.start()
-		except KeyboardInterrupt:
-			server.shutdown()
+		self.server_thread = threading.Thread(target=self.server.serve_forever)
+		self.server_thread.daemon = False
+		self.server_thread.start()
+
+	#
+	# Shutdown the server
+	#
+	def shutdown(self):
+
+		self.server.shutdown()
