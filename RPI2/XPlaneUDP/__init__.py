@@ -1,2 +1,3 @@
 #!/usr/bin/env python3
-from .server import Server
+from .server import XPlaneUDPServer
+from .client import XPlaneUDPClient

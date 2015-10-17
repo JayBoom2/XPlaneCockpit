@@ -52,7 +52,7 @@ class ThreadedUDPServer(socketserver.ThreadingMixIn, socketserver.UDPServer):
 #
 # Server Class
 #
-class Server():
+class XPlaneUDPServer():
 
 	#
 	# Init (Start the server)
