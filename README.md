@@ -5,9 +5,10 @@ Items with an asterisk are to-do and need to be created/completed.
 
 RPI2 -> Software for the Raspberry Pi
 	cockpit.py -> Runs the server, primary script. Right now it just runs the UDP server.
-		*-> Needs to create a U
+		*-> Needs to create an XPlaneUDPClient
 		*-> Needs to create an "Aircraft" object
 		*-> Needs to start an I2C server and have a loop for polling I2C devices.
+		*-> Needs to handle back and forth of aircraft object info from I2C poll.
 
 	XPlaneUDP -> Software for communicating with xplane using UDP
 		server.py -> The code for the UDP server that receives data from xplane
